@@ -1,16 +1,14 @@
-import { Client } from "@modelcontextprotocol/sdk/client/index.js";
-import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
+import type { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { createServer } from "../../src/server.js";
+import { fakeFacebookClient } from "../helpers/fakeFacebook.js";
+import { connectClient } from "../helpers/mcpClient.js";
 
 describe("ping", () => {
   let client: Client;
 
   beforeEach(async () => {
-    const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
-    await createServer().connect(serverTransport);
-    client = new Client({ name: "test", version: "0.0.0" });
-    await client.connect(clientTransport);
+    client = await connectClient(createServer({ fb: fakeFacebookClient({}).client }));
   });
 
   afterEach(() => client.close());
