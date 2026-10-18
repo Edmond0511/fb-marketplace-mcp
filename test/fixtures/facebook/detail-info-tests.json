@@ -1,0 +1,63 @@
+{
+  "data": {
+    "viewer": {
+      "marketplace_product_details_page": {
+        "target": {
+          "__typename": "GroupCommerceProductItem",
+          "id": "9000000000000001",
+          "marketplace_listing_title": "Standing desk",
+          "redacted_description": {
+            "text": "Standing desk with wheels. In great condition, very clean. Has 4 memory presets.\nSize: 40x24.\nPickup only."
+          },
+          "attribute_data": [
+            {
+              "attribute_name": "Condition",
+              "value": "used_like_new",
+              "label": "Used - like new"
+            },
+            {
+              "attribute_name": "Desk Type",
+              "value": "Standing Desk",
+              "label": "Standing Desk"
+            }
+          ],
+          "listing_price": {
+            "formatted_amount_zeros_stripped": "CA$110",
+            "amount_with_offset_in_currency": "7755",
+            "amount": "110.00",
+            "currency": "CAD"
+          },
+          "strikethrough_price": null,
+          "creation_time": 1792274932,
+          "location_text": {
+            "text": "Cambridge, ON"
+          },
+          "location": {
+            "latitude": 43.34,
+            "longitude": -80.32
+          },
+          "delivery_types": ["IN_PERSON"],
+          "marketplace_listing_category_id": "1583634935226685",
+          "is_sold": false,
+          "is_live": true,
+          "is_pending": false,
+          "is_hidden": false,
+          "marketplace_listing_seller": null
+        }
+      }
+    }
+  },
+  "errors": [
+    {
+      "message": "A server error field_exception occured.",
+      "severity": "ERROR",
+      "path": [
+        "viewer",
+        "marketplace_product_details_page",
+        "target",
+        "all_message_threads",
+        "is_empty"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "data": {
+    "city_street_search": {
+      "street_results": {
+        "edges": [
+          {
+            "node": {
+              "single_line_address": "Waterloo, Ontario",
+              "multi_line_address": [],
+              "subtitle": "City",
+              "page": {
+                "id": "112763262068685"
+              },
+              "location": {
+                "latitude": 43.46522,
+                "longitude": -80.522317,
+                "reverse_geocode_detailed": {
+                  "city": "Waterloo",
+                  "postal_code": "N2J 2W6"
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "single_line_address": "Downtown Waterloo",
+              "multi_line_address": [],
+              "subtitle": "Downtown Waterloo, ON, Canada · 971 people checked in here",
+              "page": {
+                "id": "320324208627605"
+              },
+              "location": {
+                "latitude": 43.473799,
+                "longitude": -80.542219,
+                "reverse_geocode_detailed": {
+                  "city": "Waterloo",
+                  "postal_code": "N2L"
+                }
+              }
+            }
+          },
+          {
+            "node": {
+              "single_line_address": "Uptown Waterloo",
+              "multi_line_address": [],
+              "subtitle": "Uptown Waterloo, ON, Canada · 8,960 people checked in here",
+              "page": {
+                "id": "590797154738892"
+              },
+              "location": {
+                "latitude": 43.464328,
+                "longitude": -80.510734,
+                "reverse_geocode_detailed": {
+                  "city": "Waterloo",
+                  "postal_code": "N2J 1Y8"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "extensions": {
+    "is_final": true
+  }
+}

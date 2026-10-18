@@ -1,0 +1,32 @@
+{
+  "data": {
+    "viewer": {
+      "marketplace_product_details_page": {
+        "target": {
+          "listing_photos": [
+            {
+              "image": {
+                "uri": "https://scontent.example.invalid/detail-1.jpg"
+              }
+            },
+            {
+              "image": {
+                "uri": "https://scontent.example.invalid/detail-2.jpg"
+              }
+            },
+            {
+              "image": {
+                "uri": "https://scontent.example.invalid/detail-3.jpg"
+              }
+            },
+            {
+              "image": {
+                "uri": "https://scontent.example.invalid/detail-4.jpg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
